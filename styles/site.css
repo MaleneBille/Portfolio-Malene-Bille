@@ -1,0 +1,128 @@
+/* CSS Document */
+
+/* Broedtekst */
+body {
+	font-family: 'Libre Baskerville', serif;
+	background-color: #E1F5FE;
+	margin: 0;
+}
+footer {
+	padding: 0px;
+	color: blue;
+}
+
+/* Navigation */
+.top-nav {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	background-color: black;
+}
+.top-nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+a {
+	text-decoration: none;
+	letter-spacing: 2px;
+	color: black;
+}
+.home {
+position: absolute;
+	top: 10px;
+	left: 25px;
+}
+.home img {
+	max-height: 50px;
+	width: auto;
+	padding: 0;
+}
+.top-nav-list {
+	display: flex;
+	width: 50%;
+	justify-content: space-around;
+	list-style-type: none;
+	margin: 0;
+	padding: 20px;
+}
+
+/* Frontpage */
+.signature {
+	font-family: 'Clicker Script', cursive;
+	font-size: 40px;
+	margin-top: 0;
+}
+
+/* Work */
+.box-work {
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+}
+.box-work a {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 50%;
+}
+.box-work a:first-of-type img {
+	align-self: flex-end;
+}
+.box-work img {
+	align-self: flex-start;
+}
+.box-work h2 {
+	align-self: center;
+}
+/* Boxes */
+.box {
+	max-width: 800px;
+	width: 100%;
+	margin: 50px auto;
+	padding: 40px;
+	border: 2px solid black;
+}
+.box-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-right: 20px;
+}
+
+.box-image /* images to the right */{
+	display: flex;
+	justify-content: flex-end;
+}
+.box-text-and-image {
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+}
+.box-images-side-by-side {
+	display: flex;
+	max-height: 200px;
+	width: auto;
+	padding: 0;
+	float: right;
+}
+
+/* Images */
+.img-frontpage {
+	max-height: 200px;
+	width: auto;
+	padding: 0;
+}
+.img-about-page {
+	max-height: 200px;
+	width: auto;
+	padding: 0;
+	float: right;
+}
+
+/* Helpers - Generic styles*/
+.center-text {
+	text-align: center;
+	margin-bottom: 0;
+}
